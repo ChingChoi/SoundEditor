@@ -1,9 +1,11 @@
 # SoundEditor
 
 Basic feature
+
 The program analyzes sound/music by calculating existing frequencies in a loaded sound file (currently wav file only).
 
 Record feature
+
 The program can record and playback audio.
 
 Users feature
