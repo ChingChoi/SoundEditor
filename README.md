@@ -23,9 +23,13 @@ How to analyze and filter wav file
 5) Filter result by selecting region of frequencies you would like to keep, and apply in Transformation -> Filter [Ctrl + Alt + F]
 6) Save result if desired in File -> Save [Ctrl + S]
 
+![Demo](https://github.com/ChingChoi/SoundEditor/blob/master/Resource/Demo.png)
+
 How to record and playback
 1) Open recorder panel in Tools -> Recorder [Ctrl + Alt + R]
 2) To record, press the red circle
 3) To end recording, press the red square
 4) Playback features are performed using green buttons
+
+![Recorder](https://github.com/ChingChoi/SoundEditor/blob/master/Resource/Recorder.png)
 
