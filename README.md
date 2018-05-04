@@ -1,11 +1,9 @@
 # SoundEditor
 
 Basic feature
-
 The program analyzes sound/music by calculating existing frequencies in a loaded sound file (currently wav file only).
 
 Record feature
-
 The program can record and playback audio.
 
 Users feature
@@ -35,3 +33,9 @@ How to record and playback
 
 ![Recorder](https://github.com/ChingChoi/SoundEditor/blob/master/Resource/Recorder.png)
 
+Threading feature
+- program has ability to benchmark performance based on number of multi-thread
+
+Below are results of benchmark using surface book 2 quad-core with 8 logical core
+![Thread-4](https://github.com/ChingChoi/SoundEditor/blob/master/Resource/demo-thread-4.png)
+![Thread-8](https://github.com/ChingChoi/SoundEditor/blob/master/Resource/demo-thread-8.png)
