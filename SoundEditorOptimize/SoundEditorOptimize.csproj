@@ -80,9 +80,11 @@
     </Compile>
     <Compile Include="SoundEditorOptimize.cs">
       <SubType>Form</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="SoundEditorOptimize.Designer.cs">
       <DependentUpon>SoundEditorOptimize.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -90,6 +92,7 @@
     <Compile Include="WavIO.cs" />
     <EmbeddedResource Include="SoundEditorOptimize.resx">
       <DependentUpon>SoundEditorOptimize.cs</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,6 +136,7 @@
     <Content Include="img\circleLightGreen.png" />
     <Content Include="img\knob.png" />
     <Content Include="img\knobGreen.png" />
+    <Content Include="RecordLibraryT.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
